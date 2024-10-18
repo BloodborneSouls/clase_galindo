@@ -15,4 +15,4 @@ def crear_usuario(db: Session, usuario: schemas.CrearUsuario):
     db.commit()
     db.refresh(usuario_db)
     return usuario_db
-
+    #Hola esto es un comentario
